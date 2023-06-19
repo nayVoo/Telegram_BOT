@@ -19,14 +19,12 @@ import shutil
 
 isFalse = False
 
-API_TOKEN = "6299803118:AAFhnej77ME2HYqAhzAGOqrpKvTjBHev1no"
-chat_id = "1019794396"
+API_TOKEN = "" #Your Bot API token
+chat_id = "" #Your privat chat-id
 
 bot = telebot.TeleBot(API_TOKEN)
 
 requests.post(f"https://api.telegram.org/bot{API_TOKEN}/sendMessage?chat_id={chat_id}&text=Online")
-
-#ico = pag.alert(icon ="C:/Users/User111/Desktop/ВСЕВСЕ Папки/kartinki/otec.jpg")
 
 rand = []
 rand = random.random() * 100
